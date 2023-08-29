@@ -74,21 +74,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 133px;
     height: 133px;
     bottom: -133px;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .background li:nth-child(1) {
     left: 26%;
     width: 263px;
     height: 263px;
     bottom: -263px;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 .background li:nth-child(2) {
     left: 16%;
     width: 168px;
     height: 168px;
     bottom: -168px;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 .background li:nth-child(3) {
     left: 30%;
@@ -109,7 +109,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 251px;
     height: 251px;
     bottom: -251px;
-    animation-delay: 14s;
+    animation-delay: 10s;
 }
 .background li:nth-child(6) {
     left: 31%;
