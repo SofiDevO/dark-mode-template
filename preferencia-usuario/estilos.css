@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilo para el modo de luz */
+body {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+/* Estilo para el modo oscuro */
+
+@media (prefers-color-scheme: dark){
+    body {
+        background-color: rgb(1, 1, 1);
+        color: rgb(184, 184, 184);
+    }
+}
