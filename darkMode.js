@@ -35,7 +35,7 @@ toogleDarkMode(localStorage.getItem("dark-mode") == "true");
 // Listen for changes in the OS settings.
 // Note: the arrow function shorthand works only in modern browsers,
 // for older browsers define the function using the function keyword.
-useDark.addListener((event)=> toogleDarkMode(event.matches));
+useDark.addEventListener('state',(event)=> toogleDarkMode(event.matches));
 
 /* Toggles the dark mode class on click and set localStorage state */
 
