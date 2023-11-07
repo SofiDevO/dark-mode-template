@@ -2,10 +2,6 @@
 Now this template includes a responsive Hamburger menu.
 
 
-### - 📁 "Preferencia de usuario"
-Contains an explanation of how **prefers-color-scheme: dark**, works. 
-
-- "You can use this template deletting the folder " 📁 Preferencia de usuario"  and just keep the rest of code.
 
 
 ### [Watch the video tutorial on Youtube(spanish)](https://www.youtube.com/watch?v=tSVyfcpJ1yc)
