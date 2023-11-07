@@ -35,8 +35,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 8rem;
-    
+	gap: 5rem;
 }
 
 .header__nav__menu a {

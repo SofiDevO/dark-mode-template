@@ -1,7 +1,7 @@
 .dark-mode body{
     background-color: black;
-    color: white
-    
+    color: white;
+    transition: ease-in-out 1s;
 }
 
 
