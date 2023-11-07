@@ -1,5 +1,6 @@
-# dark-mode-template
-Dark mode template to implement in yout projects
+# dark-mode-template + Dark Mode
+Now this template includes a responsive Hamburger menu.
+
 
 ### - 📁 "Preferencia de usuario"
 Contains an explanation of how **prefers-color-scheme: dark**, works. 

@@ -1,6 +1,6 @@
 const d = document;
 const button = d.querySelector('.toogle-btn');
-const iconoDark = d.querySelector('.bi-lightbulb-fill');
+const iconoDark = d.querySelector('.bi-brightness-low-fill');
 
 let darkModeState = false;
 
@@ -8,15 +8,15 @@ let darkModeState = false;
 const useDark = window.matchMedia("(prefers-color-scheme: dark)");
 
 /* Toggles the "dark-mode" class */
-function toogleDarkMode(state){
+export default function toogleDarkMode(state){
     d.documentElement.classList.toggle("dark-mode", state);
     darkModeState = state;
     if(d.documentElement.classList.contains("dark-mode")){
-        iconoDark.classList.remove("bi-lightbulb-fill");
-        iconoDark.classList.add("bi-lightbulb-off-fill");
+        iconoDark.classList.remove("bi-brightness-low-fill");
+        iconoDark.classList.add("bi-moon-stars-fill");
     }else{
-        iconoDark.classList.remove("bi-lightbulb-off-fill");
-        iconoDark.classList.add("bi-lightbulb-fill");
+        iconoDark.classList.remove("bi-moon-stars-fill");
+        iconoDark.classList.add("bi-brightness-low-fill");
     }
 }
 
